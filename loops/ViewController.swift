@@ -43,10 +43,14 @@ class ViewController: UIViewController {
    
     @IBAction func dictionaryLoop(_ sender: Any)
     {
-        
+        var contact = ["Name":"Edwin","Phone":"]
+        for (key,value) in contact
     }
-    
-    
+    output += "\(key):
+        \(value)\n"
+    }
+    textView.text = output
+    print(output)
     @IBAction func forCount(_ sender: Any)
     {
         var drinks = ["tea","coffee","milk","soda"
@@ -58,8 +62,43 @@ class ViewController: UIViewController {
     textView.text = output
     print(output)
     }
-
-
-    
+var snacks = ["chips","trail mix","cheese balls","applesauce"]
+var x = 0
+repeat
+{
+output =+ "\(snacks[x]\n"
+x =+ 1
+ }while x < snacks.count
+textView.text = output
+print(output)
 }
+
+var candy = ["snickers","heath","wafer","smarties"]
+var x = 0
+while x < candy.count
+{
+textView.text = output
+print(output)
+}
+var pizza = ["pepperoni","cheese",]"hawaiian","sausage"]
+output = pizza.joined(seperator:"\n")
+textView.text = output
+print(output)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
